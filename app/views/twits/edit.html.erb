@@ -1,10 +1,14 @@
-<h1>Editing twit</h1>
+<div class="columns is-mobile is-centered">
+  <div class="column is-half">
+    <h1 class="has-text-weight-bold is-uppercase is-size-5">Edit your twit</h1>
 
-<%= render "form", twit: @twit %>
+    <%= render "form", twit: @twit %>
 
-<br>
+    <br>
 
-<div>
-  <%= link_to "Show this twit", @twit %> |
-  <%= link_to "Back to twits", twits_path %>
+    <div>
+      <%= link_to "Show this twit", @twit %> |
+      <%= link_to "Back to twits", twits_path %>
+    </div>
+  </div>
 </div>
